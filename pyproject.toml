@@ -1,7 +1,7 @@
 [project]
-name = "email2img"
+name = "eml2img.py"
 version = "0.1.0"
-description = "Add your description here"
+description = "Just a script to parse embedded images from a .eml format to .img file(s)"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
