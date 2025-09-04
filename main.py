@@ -10,11 +10,11 @@ def main():
     directory: str | None = args.dir
     output_dir: str = args.output
 
+    print(f"{filename=}, {directory=}, {output_dir=}")
+
     converter = Eml2Img(filename, directory, output_dir)
 
     converter.parse_eml()
-
-    print(f"{filename=}, {directory=}, {output_dir=}")
 
 
 if __name__ == "__main__":
