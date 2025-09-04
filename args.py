@@ -1,6 +1,6 @@
 import argparse
 
-PROGRAM_NAME = "email2img"
+PROGRAM_NAME = "eml2img"
 
 
 class ArgParser:
